@@ -24,5 +24,16 @@ for (let i = 120; i <= 200; i++) {  // The loops is running from 120-200 and inc
     count++;  // 
   }
 
+  // Task 4
+
+  let responses = 0// Inital amount ;
+  do {
+    console.log ("Amount of responses: ${responses}");
+
+    responses++;
+ } while (responses < 3) {  // This loop runs and will stop once it is at 3
+        console.log("Survey responses were received!", responses); 
+    
+
 
 

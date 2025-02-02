@@ -16,5 +16,13 @@ for (let i = 120; i <= 200; i++) {  // The loops is running from 120-200 and inc
     console.log("Repetion: ", i);  // Display the number being repeated 
   }
 
+  //Task 3
+
+  let stock = 10 // This is the inital value of the stock
+  while (stock = 0) {  // This loop runs and will stop once it is at 0
+    console.log("The present stock is: ", stock);  // Display the present stock value
+    count++;  // 
+  }
+
 
 

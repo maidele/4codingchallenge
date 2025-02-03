@@ -44,6 +44,16 @@ let employee = {
  for (let key in employee) {
     console.log("${key}:${employee[key]}")  // This represent property and the value
  } 
-    
+
+ //Task 6
+
+ let products = [ "Purse", "Watch", "Suitcase"]; // These products are within the array
+
+ for (let product of products) {
+    console.log("${product: ${product}");
+ }
+ 
+
+
 
  

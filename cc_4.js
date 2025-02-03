@@ -40,7 +40,7 @@ let employee = {
     name: "Roxanne",
     position: "IT Business Analyst",
     salary: 65000 }
- };
+ }
  for (let key in employee) {
     console.log("${key}:${employee[key]}")  // This represent property and the value
  } 

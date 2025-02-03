@@ -52,7 +52,15 @@ let employee = {
  for (let product of products) {
     console.log("${product: ${product}");
  }
- 
+
+ //Task 7
+ let orders =[100,200,200]// Orders with the array
+  orders.forEach(order=> {
+    console.log ("The ID for the order is:${order}");
+  });
+
+
+
 
 
 

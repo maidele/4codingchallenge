@@ -12,8 +12,8 @@ if (purchaseAmount > 100) { // Recognizes whether the discount is more than $100
 //Task 2
 
 let sales = [120,140,160,180,200];// Sales array along with their figures are declared
-for (let i = 120; i <= 200; i++) {  // The loops is running from 120-200 and increases in increments of i
-    console.log("Repetion: ", i);  // Display the number being repeated 
+for (let i = 0; i <= sales.length; i++) {  // The loops is running from 120-200 and increases in increments of i
+    console.log("Total sales:, $${totalSales}");  // Display the number being repeated 
   }
 
   //Task 3

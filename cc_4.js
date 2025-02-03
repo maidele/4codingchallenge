@@ -32,8 +32,18 @@ for (let i = 120; i <= 200; i++) {  // The loops is running from 120-200 and inc
 
     responses++;
  } while (responses < 3) {  // This loop runs and will stop once it is at 3
-        console.log("Survey responses were received!", responses); 
+        console.log("Survey responses were received!", responses);// 
+
+// Task 5
+
+let employee = {
+    name: "Roxanne",
+    position: "IT Business Analyst",
+    salary: 65000 },
+ };
+ for (let key in employee) {
+    console.log("${key}:${employee[key]}")  // This represent property and the value
+ } 
     
 
-
-
+ 

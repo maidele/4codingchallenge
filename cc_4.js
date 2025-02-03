@@ -59,6 +59,17 @@ let employee = {
     console.log ("The ID for the order is:${order}");
   });
 
+  //Task 8
+  calculateTax(amount, taxRate) 
+  {
+    return amount * taxRate;
+  }; 
+
+  let tax =calculateTax (350, 5);
+  console.log ("tax:$${tax}");
+
+
+
 
 
 

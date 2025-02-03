@@ -77,7 +77,9 @@ let employee = {
 let discountedPrice = applyDiscount (450,5)
   console.log("Price with the discount: $${discountedPrice}"); 
 
-
+//Task 10: 
+const calculatePoints = (purchaseAmount) => `Balance, ${purchaseAmount}!`;  // Show purchase amount
+console.log(greet("Here all your loyalty points!!")); // display the greeting for loyalty points
 
 
 

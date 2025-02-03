@@ -60,13 +60,23 @@ let employee = {
   });
 
   //Task 8
-  calculateTax(amount, taxRate) 
+  function calculateTax(amount, taxRate) 
   {
     return amount * taxRate;
-  }; 
+  }
 
-  let tax =calculateTax (350, 5);
+  let tax = calculateTax(3500, .5);
+
   console.log ("tax:$${tax}");
+
+  //Task 9-
+
+  const applyDiscount = function(price, discountPercentage) { 
+    return price - (price * (discountPercentage/ 100)) ;
+  };
+let discountedPrice = applyDiscount (450,5)
+  console.log("Price with the discount: $${discountedPrice}"); 
+
 
 
 

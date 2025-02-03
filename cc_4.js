@@ -39,7 +39,7 @@ for (let i = 120; i <= 200; i++) {  // The loops is running from 120-200 and inc
 let employee = {
     name: "Roxanne",
     position: "IT Business Analyst",
-    salary: 65000 },
+    salary: 65000 }
  };
  for (let key in employee) {
     console.log("${key}:${employee[key]}")  // This represent property and the value

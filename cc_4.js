@@ -42,7 +42,7 @@ let employee = {
     salary: 65000 }
  };
  for (let key in employee) {
-    console.log("${key} ${employee[key]}")  // This represent property and the value
+    console.log("${key}: ${employee[key]}")  // This represent property and the value
  } 
 
  //Task 6
